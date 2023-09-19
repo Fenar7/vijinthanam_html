@@ -1,0 +1,114 @@
+/* malayalam fonts section */
+
+@import url('https://smc.org.in/fonts/meera.css');
+@import url('https://smc.org.in/fonts/uroob.css');
+
+
+.sports-inner h3{
+    font-family: 'uroob';
+}
+
+.sports-inner-cover h3{
+    font-size: 2.5rem;
+}
+.hero-section h3{
+    font-family: 'uroob';
+}
+.post-title-author-details h3,.post-date,.post-title-author-details p{
+    font-family: 'Meera';
+}
+.post-date{
+    font-size: 1.3rem;
+}
+.post-title-author-details p{
+    font-size: 1.5rem;
+}
+
+/* custom font section end */
+
+.top_banner_wrap{
+    background-color: rgb(15, 15, 15);
+}
+.navbar{
+    background-color: rgb(15, 15, 15);
+}
+.header-banner{
+    border-top: 0.5px solid white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: -1.4em;
+
+}
+.header-banner img{
+    width: 500px;
+}
+img{
+    border-radius: 10px;
+}
+
+.news-feed{
+    background-color: #fff;
+}
+
+.pdf-version{
+    padding: 2em;
+    background-color: rgb(15, 15, 15);
+}
+.pdf-version img{
+    transition: all 150ms ease-in-out;
+    &:hover{
+            transform: scale(1.05);
+    }
+}
+
+.pdf-version>.category-headding-cover{
+    font-size: 3rem;
+    font-family: 'uroob';
+    color: #f60d2b;
+}
+
+.headding-pdf-version{
+    font-size: 2rem;
+    color: #f60d2b;
+    font-weight: bold;
+}
+
+.headding-border{
+    background-color: white;
+}
+
+.sports-inner{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.sports-inner h3 a{
+    color: #fff;
+    font-weight: bold;
+}
+.sports-inner h3 a:hover{
+    color: #f60d2b;;
+}
+
+
+.category-headding, .category-headding-cover{
+    color: #f60d2b;
+}
+
+
+.sports-inner img{
+    transition: all 150ms ease-in-out;
+    &:hover{
+            transform: scale(1.05);
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .post-title-author-details h3{
+        font-size: 1.6rem;
+    }
+}
+.post-title-author-details h3{
+}
