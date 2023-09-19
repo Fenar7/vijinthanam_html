@@ -92,6 +92,11 @@ img{
     color: #f60d2b;;
 }
 
+.header-banner{
+    display: flex;
+    justify-content: center;
+}
+
 
 .category-headding, .category-headding-cover{
     color: #f60d2b;
